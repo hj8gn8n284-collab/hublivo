@@ -1,0 +1,424 @@
+{
+  "users": [
+    {
+      "id": "usr_hublivo_demo_owner",
+      "email": "owner@hublivo.com",
+      "name": "Elena Vance",
+      "passwordHash": "b0cf340c6437d5eab358fbd6d430d76e444603cb5a8f7717af5488a924c5b10289665650a4135c72b02c86633bd8a8712f25760c9871198d2b22856c104f5b40",
+      "salt": "7f8a9b0c1d2e3f4a5b6c7d8e",
+      "createdAt": "2026-10-28T00:35:36.873Z"
+    }
+  ],
+  "businesses": [
+    {
+      "id": "biz_verdant_landscaping",
+      "ownerId": "usr_hublivo_demo_owner",
+      "name": "Verdant Native Landscaping & Stone",
+      "slug": "verdant-native-landscaping",
+      "category": "Landscaping & Outdoors",
+      "tagline": "Lush Pacific Northwest botanical garden pathways, dry-stack slate, and native plant curation.",
+      "locationType": "service_area",
+      "serviceArea": "Greater Portland Metro & Willamette Valley (Travels to Client)",
+      "photos": [
+        "/src/assets/images/botanical_landscaping_1793147309519.jpg"
+      ],
+      "startingPrice": 120,
+      "pricingUnit": "consultation",
+      "services": [
+        {
+          "id": "s1",
+          "name": "On-Site Botanical Garden Consultation",
+          "price": 120,
+          "priceSuffix": "per 90 min",
+          "description": "Comprehensive site analysis, soil check, and native plant arrangement blueprint."
+        },
+        {
+          "id": "s2",
+          "name": "Natural Flagstone & Moss Pathway Installation",
+          "price": 1450,
+          "priceSuffix": "starting",
+          "description": "Hand-chiselled local basalt and slate pathway with native creeping thyme and moss border."
+        },
+        {
+          "id": "s3",
+          "name": "Four-Season Native Canopy Pruning",
+          "price": 280,
+          "priceSuffix": "half-day",
+          "description": "Careful aesthetic thinning of Japanese maples, hemlocks, and elderberry bushes."
+        }
+      ],
+      "availability": {
+        "monday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "tuesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "wednesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "thursday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "friday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "saturday": {
+          "open": true,
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "sunday": {
+          "open": false,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "notes": "Walk-ins welcome or call ahead to confirm private bookings."
+      },
+      "phone": "(503) 890-4122",
+      "email": "elena@verdantlandscapes.com",
+      "status": "published",
+      "featured": true,
+      "createdAt": "2026-10-15T10:00:00.000Z",
+      "updatedAt": "2026-10-20T14:30:00.000Z"
+    },
+    {
+      "id": "biz_kavanagh_woodcraft",
+      "ownerId": "usr_hublivo_demo_owner",
+      "name": "Kavanagh Studio Woodcraft",
+      "slug": "kavanagh-studio-woodcraft",
+      "category": "Crafts & Woodwork",
+      "tagline": "Hand-hewn walnut dining tables, heirloom credenzas, and Japanese joinery.",
+      "locationType": "address",
+      "address": "1420 NW Industrial Way, Suite 4B, Seattle, WA",
+      "photos": [
+        "/src/assets/images/artisan_woodwork_1793147310156.jpg"
+      ],
+      "startingPrice": 350,
+      "pricingUnit": "piece",
+      "services": [
+        {
+          "id": "s1",
+          "name": "Bespoke Solid Walnut Dining Table",
+          "price": 2800,
+          "priceSuffix": "custom build",
+          "description": "Kiln-dried American black walnut with hand-rubbed organic oil and beeswax finish."
+        },
+        {
+          "id": "s2",
+          "name": "Mortise-and-Tenon Coffee Table",
+          "price": 850,
+          "priceSuffix": "each",
+          "description": "Low profile living room centerpiece built using timeless zero-hardware joinery."
+        },
+        {
+          "id": "s3",
+          "name": "Heirloom Furniture Restoration & Refinishing",
+          "price": 350,
+          "priceSuffix": "starting",
+          "description": "Careful historical timber preservation, joinery tightening, and gentle patina revival."
+        }
+      ],
+      "availability": {
+        "monday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "tuesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "wednesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "thursday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "friday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "saturday": {
+          "open": true,
+          "start": "11:00",
+          "end": "16:00"
+        },
+        "sunday": {
+          "open": false,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "notes": "Studio open for wood selection by appointment."
+      },
+      "phone": "(206) 431-8890",
+      "email": "hello@kavanaghwood.com",
+      "status": "published",
+      "featured": true,
+      "createdAt": "2026-10-18T12:00:00.000Z",
+      "updatedAt": "2026-10-22T09:15:00.000Z"
+    },
+    {
+      "id": "biz_slate_flour_bakery",
+      "ownerId": "usr_hublivo_demo_owner",
+      "name": "Slate & Flour Artisan Sourdough",
+      "slug": "slate-and-flour-bakery",
+      "category": "Artisan Bakery & Food",
+      "tagline": "36-hour cold-fermented wild yeast sourdough, laminated pastries, and stone-milled flours.",
+      "locationType": "address",
+      "address": "804 Pine Street, Boulder, CO",
+      "photos": [
+        "/src/assets/images/artisan_bakery_1793147311516.jpg"
+      ],
+      "startingPrice": 9,
+      "pricingUnit": "loaf",
+      "services": [
+        {
+          "id": "s1",
+          "name": "Country Seeded Sourdough Batard",
+          "price": 9.5,
+          "priceSuffix": "loaf",
+          "description": "Toasted sesame, golden flax, and wild heirloom starter with caramelized crust."
+        },
+        {
+          "id": "s2",
+          "name": "Cardamom & Blood Orange Morning Bun",
+          "price": 5.75,
+          "priceSuffix": "each",
+          "description": "Layered croissant dough rolled in organic Ceylon cardamom and raw demerara sugar."
+        },
+        {
+          "id": "s3",
+          "name": "Weekly Neighborhood Bread Subscription",
+          "price": 36,
+          "priceSuffix": "month",
+          "description": "Two fresh loaves reserved every Friday morning with bakery-club exclusive bakes."
+        }
+      ],
+      "availability": {
+        "monday": {
+          "open": false,
+          "start": "07:00",
+          "end": "14:00"
+        },
+        "tuesday": {
+          "open": true,
+          "start": "07:00",
+          "end": "14:00"
+        },
+        "wednesday": {
+          "open": true,
+          "start": "07:00",
+          "end": "14:00"
+        },
+        "thursday": {
+          "open": true,
+          "start": "07:00",
+          "end": "14:00"
+        },
+        "friday": {
+          "open": true,
+          "start": "07:00",
+          "end": "15:00"
+        },
+        "saturday": {
+          "open": true,
+          "start": "07:30",
+          "end": "16:00"
+        },
+        "sunday": {
+          "open": true,
+          "start": "08:00",
+          "end": "14:00"
+        },
+        "notes": "Fresh bake out of the stone deck oven at 7:00 AM daily."
+      },
+      "phone": "(303) 554-2018",
+      "email": "bakes@slateandflour.com",
+      "status": "published",
+      "featured": true,
+      "createdAt": "2026-10-21T08:00:00.000Z",
+      "updatedAt": "2026-10-24T11:00:00.000Z"
+    },
+    {
+      "id": "biz_moss_sanctuary_spa",
+      "ownerId": "usr_hublivo_demo_owner",
+      "name": "Moss Sanctuary Wellness & Bodywork",
+      "slug": "moss-sanctuary-wellness",
+      "category": "Wellness & Spa",
+      "tagline": "Restorative dark-botanical massage, heated river basalt stones, and herbal aromatherapy.",
+      "locationType": "address",
+      "address": "224 Forest Ridge Road, Ashland, OR",
+      "photos": [
+        "/src/assets/images/forest_wellness_spa_1793147312087.jpg"
+      ],
+      "startingPrice": 110,
+      "pricingUnit": "session",
+      "services": [
+        {
+          "id": "s1",
+          "name": "Deep Forest Basalt Stone Therapy",
+          "price": 140,
+          "priceSuffix": "75 min",
+          "description": "Smooth heated river stones infused with cedar and wild sage essential extracts."
+        },
+        {
+          "id": "s2",
+          "name": "Targeted Myofascial Release & Tension Relieve",
+          "price": 110,
+          "priceSuffix": "60 min",
+          "description": "Custom structural alignment focusing on chronic postural neck, shoulder, and back fatigue."
+        },
+        {
+          "id": "s3",
+          "name": "Private Couples Sound Bath & Restorative Massage",
+          "price": 260,
+          "priceSuffix": "90 min",
+          "description": "Dual therapists with Himalayan brass bowls and botanical foot bath immersion."
+        }
+      ],
+      "availability": {
+        "monday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "tuesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "wednesday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "thursday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "friday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "saturday": {
+          "open": true,
+          "start": "10:00",
+          "end": "15:00"
+        },
+        "sunday": {
+          "open": true,
+          "start": "10:00",
+          "end": "16:00"
+        },
+        "notes": "Quiet botanical sanctuary. Herbal infusion served post-treatment."
+      },
+      "phone": "(541) 488-9204",
+      "email": "appointments@mosssanctuary.com",
+      "status": "published",
+      "featured": false,
+      "createdAt": "2026-10-23T14:00:00.000Z",
+      "updatedAt": "2026-10-26T16:00:00.000Z"
+    },
+    {
+      "id": "biz_apex_mobile_detailing",
+      "ownerId": "usr_hublivo_demo_owner",
+      "name": "Apex Mobile Precision Auto Detailing",
+      "slug": "apex-mobile-precision-detailing",
+      "category": "Automotive Detailing",
+      "tagline": "Concours-level mobile ceramic coating, paint correction, and interior restoration at your driveway.",
+      "locationType": "service_area",
+      "serviceArea": "Bay Area & Silicon Valley (Fully equipped mobile van travels to your home or office)",
+      "photos": [
+        "/src/assets/images/mobile_auto_detailing_1793147311696.jpg"
+      ],
+      "startingPrice": 180,
+      "pricingUnit": "vehicle",
+      "services": [
+        {
+          "id": "s1",
+          "name": "Signature Mobile Foam Wash & Decontamination",
+          "price": 180,
+          "priceSuffix": "starting",
+          "description": "pH-neutral foam bath, iron fallout removal, clay bar, and synthetic sealant spray."
+        },
+        {
+          "id": "s2",
+          "name": "Two-Stage Machine Paint Correction & Mirror Polish",
+          "price": 490,
+          "priceSuffix": "sedan / coupe",
+          "description": "Eliminates 85-90% of swirl marks, light scratches, and oxidation."
+        },
+        {
+          "id": "s3",
+          "name": "3-Year 9H Hardness Hydrophobic Ceramic Coating",
+          "price": 790,
+          "priceSuffix": "complete",
+          "description": "Multi-layer nanotech ceramic barrier applied to bodywork, wheel faces, and glass."
+        }
+      ],
+      "availability": {
+        "monday": {
+          "open": true,
+          "start": "08:00",
+          "end": "18:00"
+        },
+        "tuesday": {
+          "open": true,
+          "start": "08:00",
+          "end": "18:00"
+        },
+        "wednesday": {
+          "open": true,
+          "start": "08:00",
+          "end": "18:00"
+        },
+        "thursday": {
+          "open": true,
+          "start": "08:00",
+          "end": "18:00"
+        },
+        "friday": {
+          "open": true,
+          "start": "08:00",
+          "end": "18:00"
+        },
+        "saturday": {
+          "open": true,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "sunday": {
+          "open": false,
+          "start": "09:00",
+          "end": "17:00"
+        },
+        "notes": "Self-contained water tank and silent electric generator on board."
+      },
+      "phone": "(415) 790-3329",
+      "email": "service@apexdetailing.com",
+      "status": "published",
+      "featured": false,
+      "createdAt": "2026-10-25T11:00:00.000Z",
+      "updatedAt": "2026-10-27T08:00:00.000Z"
+    }
+  ]
+}
